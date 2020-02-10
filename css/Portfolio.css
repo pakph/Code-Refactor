@@ -15,6 +15,33 @@ li a {
     color: snow;
     text-align: center;
     padding: 10px 50px;
-    text-decoration: none
-    
+    text-decoration: none    
+}
+
+#project1 {
+    float: left;
+    width: 256px;
+    height: 512px;
+    margin-right: 2%;
+    text-align: center;
+    border-style: solid;
+    border-color: steelblue;
+}
+
+#project2,
+#project3,
+#project4 {
+    float: left;
+    width: 256px;
+    height: 512px;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    border-style: solid;
+    border-color: steelblue;
+}
+
+.projecttitle {
+    font-weight: 700;
+    font-size: 20px;
 }
