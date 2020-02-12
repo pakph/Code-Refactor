@@ -1,19 +1,36 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.navbar {
+    width: 100%;
     background-color: steelblue;
-    overflow: hidden;
+    overflow: auto;
 }
 
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: snow;
+.navbar a{
+    float: right;
     text-align: center;
-    padding: 10px 50px;
-    text-decoration: none;   
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background-color: #386890;
+}
+
+.navbar a.active {
+    background-color: #40464e;
+    color: white;
+}
+
+h2 {
+    float:left;
+}
+
+.card {
+    float:left;
+    width: 100%;
+}
+
+.container {
+    padding: 2px 15px;
 }

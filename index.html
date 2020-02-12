@@ -5,21 +5,17 @@
     <meta charset="UTF-8">
     <title>About Me</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="https://kit.fontawesome.com/3634cae695.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
 <!-- Nav Bar -->
-<ul>
-    <!-- About Me Link -->
-    <li><a href="index.html">About Me</a></li>
-    
-    <!-- Portfolio Link -->
-    <li><a href="Portfolio.html">Portfolio</a></li>
-    
-    <!-- Contacts link -->
-    <li><a href="Contacts.html">Contact</a></li>
-</ul>
+<div class="navbar">
+    <a href="Contacts.html"><i class="fas fa-address-book"></i> Contact</a>
+    <a href="Portfolio.html"><i class="far fa-keyboard"></i> Portfolio</a></li>
+    <a class="active" href="index.html"><i class="fas fa-home"></i> About Me<a> 
+</div>
 
 <!-- Site Header -->
 <header id="header">
@@ -28,21 +24,19 @@
 
 </header>
 
-<div class="container">
-
     <!-- About Me Page -->
-    <section id="about-me"
+    <section id="about-me">
 
-    <!-- h2: Tier-2 Headline -->
-    <h2>Phil Pak</h2>
-
-    <!-- Image of Me-->
-    <img id="bio-image" src="https://placehold.it/200x200" alt="Phil Pak">
-
-    <!-- Paragraph of Me-->
-    <p>Hello! I am an aspiring Computer Programmer. Currently, I am going through Coding Bootcamp in order to achieve this goal. From this bootcamp, I wish to learn all sorts of skills including those not limited to coding.</p>
+    <div class="card">
+        <h2>Phil Pak</h2>
+        <img id="bio-image" src="https://placehold.it/200x200" alt="Phil Pak">
+        <div class="container">
+            Hello! I am an aspiring Computer Programmer. Currently, I am going through Coding Bootcamp in order to achieve this goal. From this bootcamp, I wish to learn all sorts of skills including those not limited to coding.
+        </div>
+    </div>
+    </section>
     
-</div>
+
     
 </body>
 </html>
